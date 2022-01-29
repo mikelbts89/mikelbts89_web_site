@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+import AboutMe from './Components/AboutMe/AboutMe';
 import NavBar from './Components/NavBar/NavBar';
 
 function App() {
@@ -8,7 +9,9 @@ function App() {
       <header>
         <NavBar />
       </header>
-      <main></main>
+      <main>
+        <AboutMe />
+      </main>
       <aside></aside>
       <footer></footer>
     </div>
