@@ -1,11 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import NavBar from './Components/NavBar/NavBar';
 
 function App() {
   return (
     <div className="App">
-      <h1>Hi its my web site </h1>
+      <header>
+        <NavBar />
+      </header>
+      <main></main>
+      <aside></aside>
+      <footer></footer>
     </div>
   );
 }
