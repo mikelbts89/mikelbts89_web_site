@@ -1,20 +1,23 @@
 import React from 'react';
 import './App.css';
-import AboutMe from './Components/AboutMe/AboutMe';
+import { BrowserRouter } from "react-router-dom";
 import NavBar from './Components/NavBar/NavBar';
+import Routing from './Components/Routing';
 
 function App() {
   return (
-    <div className="App">
-      <header>
-        <NavBar />
-      </header>
-      <main>
-        <AboutMe />
-      </main>
-      <aside></aside>
-      <footer></footer>
-    </div>
+    <BrowserRouter>
+      <div className="App">
+        <header>
+          <NavBar />
+        </header>
+        <main>
+         <Routing/>
+        </main>
+        <footer></footer>
+      </div>
+    </BrowserRouter>
+
   );
 }
 

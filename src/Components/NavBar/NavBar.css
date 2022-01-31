@@ -5,3 +5,13 @@
   text-align: center;
   font-size: 2rem;
 }
+
+a {
+  margin: 1rem;
+  color: black;
+}
+
+a:hover {
+  zoom: 102%;
+  text-shadow: 0.05rem 0.05rem #f8f6f6;
+}

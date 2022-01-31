@@ -42,13 +42,6 @@ function CV() {
             <br />
             ORT Yad Shapira 2007 - 2009 - Practical Engineer - Mechanical Engineering.
             <br />
-            Two in-depth dissertations on hybrid and vehicle safety.
-            <br />
-            <br />
-            Courses and Certifications:
-            <br />
-            Drawing - Maut College of IAI <br />
-            Excel Advanced Course - Yad College
         </div>
         <div className="education">
             <p>
