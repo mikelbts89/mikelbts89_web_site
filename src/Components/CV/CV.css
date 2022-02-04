@@ -8,7 +8,7 @@
 
 .CV {
   background-color: #000;
-  min-height: 100vh;
+  height: 85vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,7 +21,7 @@
 .scene {
   position: relative;
   transform-style: preserve-3d;
-  animation: sceneRotate var(--rotateSpeed) infinite linear;
+  /* animation: sceneRotate var(--rotateSpeed) infinite linear; */
 }
 @keyframes sceneRotate {
   to {
@@ -32,8 +32,8 @@
 .ball_ring {
   transform-style: preserve-3d;
   position: absolute;
-  animation: ballBounce var(--bounceSpeed) infinite ease-out,
-    sceneRotate var(--rotateSpeed) infinite linear reverse;
+  animation: ballBounce var(--bounceSpeed) infinite ease-out;
+  /* sceneRotate var(--rotateSpeed) infinite linear reverse; */
 }
 @keyframes ballBounce {
   0%,
@@ -41,7 +41,7 @@
     bottom: -0.5em;
   }
   50% {
-    bottom: 3em;
+    bottom: 2.5em;
     animation-timing-function: ease-in;
   }
 }
@@ -186,7 +186,8 @@
 .works,
 .coding_job,
 .military_service,
-.softwares {
+.softwares,
+.selfEducation {
   position: absolute;
   padding: 1em;
   color: white;
@@ -195,7 +196,7 @@
 
 .cv_div {
   font-size: 24px;
-  bottom: 6em;
+  bottom: 1em;
   text-align: center;
 }
 
@@ -226,12 +227,17 @@
 }
 
 .military_service {
-  width: 14em;
-  top: 0;
-  left: 20em;
+  right: 3em;
+  bottom: 2em;
 }
 
 .softwares {
-  bottom: 0;
-  left: 0;
+  width: 14em;
+  top: 15em;
+  left: 20em;
+}
+.selfEducation {
+  width: 14em;
+  top: 0;
+  left: 20em;
 }

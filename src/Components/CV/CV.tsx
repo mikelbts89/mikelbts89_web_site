@@ -45,22 +45,31 @@ function CV() {
         </div>
         <div className="education">
             <p>
-                John Bryce 2019 - 2021 - Full Stack web developer
+                John Bryce 2019 - 2021  <br /> Full Stack web developer
                 <br />
                 HTML5 | CSS3 | SCSS | SASS | OOP | JavaScript | TypeScript | React +
                 Redux | React-native | Angular | npm | PHP | Node.js + Express | SQL |
                 MongoDB |
                 <br />
+                <p>
+                    Projects : <br />
+                    Todo List – Vanilla JS, HTML, CSS. <br /> <br />
+                    Crypto Coins – Jquery, Ajax, CanvasJs, Bootstrap. <br /> <br />
+                    Vacation Project – React, Hooks, Redux, TypeScript, Express, Mysql2 Cors, JWT, nodemon. <br /> <br />
+                    SuperMarket Project – Angular, ngModule, Rxjs, Pipe, Services, ng-bootstrap, tslib, JWT, Cors, express, Mysql2, nodemon. <br />
+                </p>
                 <br />
-                Self education: Udemy <br />
-                • React - The complete guide
-                <br />
-                • JavaScript - The complete guide
-                <br />
-                • Web development bootcamp <br />
-                • Docker Mastery: with Kubernetes <br />
-                +Swarm from a Docker Captain
             </p>
+        </div>
+        <div className='selfEducation'>
+            Self education: Udemy <br /><br />
+            • React - The complete guide
+            <br />
+            • JavaScript - The complete guide
+            <br />
+            • Web development bootcamp <br />
+            • Docker Mastery: with Kubernetes <br />
+            +Swarm from a Docker Captain
         </div>
         <div className="works">
             <p>

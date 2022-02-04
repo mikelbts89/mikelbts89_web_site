@@ -3,17 +3,18 @@
   box-sizing: border-box;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 10% 85% 5%;
+  grid-template-rows: 6.9% 88.1% 5%;
 }
 
-.App > * {
+/* .App > * {
   border: 1px solid black;
-}
+} */
+
 .App > footer,
 .App > header {
-  display: flex;
+  /* display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: center;  */
   grid-column: span 12;
 }
 

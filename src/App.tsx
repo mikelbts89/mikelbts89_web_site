@@ -4,6 +4,7 @@ import { BrowserRouter } from "react-router-dom";
 import NavBar from './Components/NavBar/NavBar';
 import Routing from './Components/Routing';
 
+
 function App() {
   return (
     <BrowserRouter>
@@ -12,7 +13,7 @@ function App() {
           <NavBar />
         </header>
         <main>
-         <Routing/>
+          <Routing />
         </main>
         <footer></footer>
       </div>
