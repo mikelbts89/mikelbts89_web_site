@@ -241,3 +241,16 @@
   top: 0;
   left: 20em;
 }
+
+@media only screen and (max-width: 600px) {
+  .cv_div,
+  .education,
+  .pre_education,
+  .works,
+  .coding_job,
+  .military_service,
+  .softwares,
+  .selfEducation {
+    display: none;
+  }
+}
