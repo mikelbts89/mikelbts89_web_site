@@ -31,7 +31,7 @@ function CV() {
                 </a>
                 <br />
                 Linkedin:
-                <a target="_blank" rel="noreferrer" href="https://www.linkedin.cn/in/michaelbugayets/"
+                <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/michaelbugayets/"
                 >https://www.linkedin.cn/in/michaelbugayets/</a
                 >
             </p>

@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter } from "react-router-dom";
-import NavBar from './Components/NavBar/NavBar';
 import Routing from './Components/Routing';
+import ResponsiveAppBar from './Components/NavBar/NavBar';
 
 
 function App() {
@@ -10,7 +10,7 @@ function App() {
     <BrowserRouter>
       <div className="App">
         <header>
-          <NavBar />
+          <ResponsiveAppBar/>  
         </header>
         <main>
           <Routing />

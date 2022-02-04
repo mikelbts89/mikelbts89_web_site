@@ -167,7 +167,7 @@
   transform: translate(-50%, -50%) rotateX(90deg);
   width: 15em;
   height: 15em;
-  background-image: radial-gradient(#0000, #000 75%),
+  background-image: radial-gradient(#0000, #000 65%),
     repeating-conic-gradient(from 45deg, #111 0deg 90deg, #222 90deg 180deg);
   background-size: 100%, 1em 1em;
 }
@@ -243,14 +243,7 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .cv_div,
-  .education,
-  .pre_education,
-  .works,
-  .coding_job,
-  .military_service,
-  .softwares,
-  .selfEducation {
+  .CV {
     display: none;
   }
 }
