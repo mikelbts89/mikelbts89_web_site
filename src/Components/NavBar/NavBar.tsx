@@ -7,11 +7,12 @@ import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
-import Button from '@mui/material/Button';
 import MenuItem from '@mui/material/MenuItem';
 import DirectionsBikeIcon from '@mui/icons-material/DirectionsBike';
+import { Link } from 'react-router-dom';
+import "./NavBar.css"
 
-const pages = ['Aboute Me', 'CV', 'Contacts'];
+const pages = ['About', 'CV', 'Contacts'];
 
 const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null);
@@ -71,7 +72,13 @@ const ResponsiveAppBar = () => {
           >
             {pages.map((page) => (
               <MenuItem key={page} onClick={handleCloseNavMenu}>
-                <Typography textAlign="center">{page}</Typography>
+                <Typography textAlign="left">
+                  {<Link to={`/${page}`}
+                    style={{ color: "black" }}
+                  >
+                    {page}
+                  </Link>}
+                </Typography>
               </MenuItem>
             ))}
           </Menu>
@@ -85,15 +92,14 @@ const ResponsiveAppBar = () => {
         >
           Michael Bugayets
         </Typography>
-        <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex' } }}>
+        <Box sx={{ flexGrow: 1,ml:5, display: { xs: 'none', md: 'flex' } }}>
           {pages.map((page) => (
-            <Button
+            <Link className='md_link' to={`/${page}`}
               key={page}
               onClick={handleCloseNavMenu}
-              sx={{ my: 2, color: 'white', display: 'block' }}
             >
               {page}
-            </Button>
+            </Link>
           ))}
         </Box>
       </Toolbar>
