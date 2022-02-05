@@ -19,6 +19,7 @@
 }
 
 .App > main {
+  /* padding: 1rem 3rem; */
   grid-column: span 12;
   overflow: scroll;
 }

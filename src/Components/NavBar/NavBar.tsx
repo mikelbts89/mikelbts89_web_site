@@ -8,11 +8,15 @@ import Typography from '@mui/material/Typography';
 import Menu from '@mui/material/Menu';
 import MenuIcon from '@mui/icons-material/Menu';
 import MenuItem from '@mui/material/MenuItem';
-import DirectionsBikeIcon from '@mui/icons-material/DirectionsBike';
+// import DirectionsBikeIcon from '@mui/icons-material/DirectionsBike';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LensBlurIcon from '@mui/icons-material/LensBlur';
 import { Link } from 'react-router-dom';
 import "./NavBar.css"
+import { url } from 'inspector';
 
-const pages = ['About', 'CV', 'Contacts'];
+const pages = ['Home', 'About', 'CV', 'Contacts'];
 
 const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null);
@@ -31,16 +35,15 @@ const ResponsiveAppBar = () => {
   return (
     <AppBar position="static">
       <Toolbar disableGutters>
-        <DirectionsBikeIcon fontSize='large' sx={{ ml: 2, display: { xs: 'none', md: 'flex' } }} />
+        <LensBlurIcon fontSize='large' sx={{ ml: 2, display: { xs: 'none', md: 'flex' } }} />
         <Typography
           variant="h4"
           noWrap
           component="div"
-          sx={{ mr: 5, ml: 3, display: { xs: 'none', md: 'flex' } }}
+          sx={{ mr: 5, ml: 1, display: { xs: 'none', md: 'flex' } }}
         >
           Michael Bugayets
         </Typography>
-
         <Box sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}>
           <IconButton
             size="large"
@@ -83,16 +86,16 @@ const ResponsiveAppBar = () => {
             ))}
           </Menu>
         </Box>
-        <DirectionsBikeIcon fontSize='large' sx={{ mr: 2, display: { xs: 'flex', md: 'none' } }} />
+        <LensBlurIcon fontSize='large' sx={{ mr: 1, display: { xs: 'flex', md: 'none' } }} />
         <Typography
           variant="h4"
           noWrap
           component="div"
-          sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' } }}
+          sx={{ flexGrow: 1, display: { xs: 'flex', md: 'none' }, fontSize: 25 }}
         >
           Michael Bugayets
         </Typography>
-        <Box sx={{ flexGrow: 1,ml:5, display: { xs: 'none', md: 'flex' } }}>
+        <Box sx={{ flexGrow: 1, ml: 5, display: { xs: 'none', md: 'flex' } }}>
           {pages.map((page) => (
             <Link className='md_link' to={`/${page}`}
               key={page}
@@ -102,6 +105,12 @@ const ResponsiveAppBar = () => {
             </Link>
           ))}
         </Box>
+        <a className='socialMedia' href="https://github.com/mikelbts89" rel="noopener noreferrer" target="_blank" >
+          <GitHubIcon fontSize='large' />
+        </a>
+        <a className='socialMedia' href="https://www.linkedin.com/in/michaelbugayets/" rel="noopener noreferrer" target="_blank" >
+          <LinkedInIcon fontSize='large' />
+        </a>
       </Toolbar>
 
     </AppBar>

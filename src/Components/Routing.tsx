@@ -9,7 +9,7 @@ import Home from './Home/Home';
 function Routing() {
     return <div>
         <Routes>
-            <Route path="/home" element={<Home />} />
+            <Route path="/Home" element={<Home />} />
             <Route path="/ABOUT" element={<AboutMe />} />
             <Route path="/CV" element={<CV />} />
             <Route path="/" element={<Navigate replace to="/home" />} />

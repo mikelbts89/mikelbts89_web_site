@@ -12,3 +12,13 @@ a:hover {
 .md_link {
   margin-left: 2rem;
 }
+
+.socialMedia {
+  margin-right: 1rem;
+}
+
+@media only screen and (max-width: 900px) {
+  .socialMedia {
+    display: none;
+  }
+}
