@@ -14,7 +14,6 @@ import GitHubIcon from '@mui/icons-material/GitHub';
 import LensBlurIcon from '@mui/icons-material/LensBlur';
 import { Link } from 'react-router-dom';
 import "./NavBar.css"
-import { url } from 'inspector';
 
 const pages = ['Home', 'About', 'CV', 'Contacts'];
 
