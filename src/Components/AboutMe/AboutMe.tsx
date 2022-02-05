@@ -5,6 +5,7 @@ function AboutMe() {
     return <div className='AboutMe'>
         <Container fixed maxWidth="xl">
             <h1>About Me</h1>
+            <img src={process.env.PUBLIC_URL + '/5336.jpg'} alt="My_Img" />
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, iure? Debitis laborum voluptate modi.
                 Fugiat animi sequi placeat id provident in quo fugit molestiae deserunt laudantium assumenda officiis earum magnam,
                 architecto veritatis sunt temporibus maxime voluptate? Enim perspiciatis reprehenderit hic quia quam!
