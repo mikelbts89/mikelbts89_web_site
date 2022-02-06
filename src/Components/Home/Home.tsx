@@ -1,10 +1,10 @@
 import React from 'react';
 import Container from '@mui/material/Container';
 import Button from '@mui/material/Button';
-import CheckCircleIcon from '@mui/icons-material/CheckCircle';
-import EmojiPeopleIcon from '@mui/icons-material/EmojiPeople';
-import FlightTakeoffIcon from '@mui/icons-material/FlightTakeoff';
-import HowToRegIcon from '@mui/icons-material/HowToReg';
+// import CheckCircleIcon from '@mui/icons-material/CheckCircle';
+// import EmojiPeopleIcon from '@mui/icons-material/EmojiPeople';
+// import FlightTakeoffIcon from '@mui/icons-material/FlightTakeoff';
+// import HowToRegIcon from '@mui/icons-material/HowToReg';
 import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
 import "./Home.css"
 
