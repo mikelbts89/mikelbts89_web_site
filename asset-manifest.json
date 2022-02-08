@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/mikelbts89_web_site/static/css/main.e52d59bc.css",
+    "main.css": "/mikelbts89_web_site/static/css/main.566f9467.css",
     "main.js": "/mikelbts89_web_site/static/js/main.d47a8ed4.js",
     "static/js/787.f25e3ea3.chunk.js": "/mikelbts89_web_site/static/js/787.f25e3ea3.chunk.js",
     "static/media/home_back2.JPG": "/mikelbts89_web_site/static/media/home_back2.b3018d86a5b9a59502fc.JPG",
     "index.html": "/mikelbts89_web_site/index.html",
-    "main.e52d59bc.css.map": "/mikelbts89_web_site/static/css/main.e52d59bc.css.map",
+    "main.566f9467.css.map": "/mikelbts89_web_site/static/css/main.566f9467.css.map",
     "main.d47a8ed4.js.map": "/mikelbts89_web_site/static/js/main.d47a8ed4.js.map",
     "787.f25e3ea3.chunk.js.map": "/mikelbts89_web_site/static/js/787.f25e3ea3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e52d59bc.css",
+    "static/css/main.566f9467.css",
     "static/js/main.d47a8ed4.js"
   ]
 }
