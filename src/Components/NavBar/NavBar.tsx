@@ -11,6 +11,7 @@ import MenuItem from '@mui/material/MenuItem';
 // import DirectionsBikeIcon from '@mui/icons-material/DirectionsBike';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import FacebookIcon from '@mui/icons-material/Facebook';
 import LensBlurIcon from '@mui/icons-material/LensBlur';
 import { Link } from 'react-router-dom';
 import "./NavBar.css"
@@ -39,7 +40,7 @@ const ResponsiveAppBar = () => {
           variant="h4"
           noWrap
           component="div"
-          sx={{ mr: 5, ml: 1, display: { xs: 'none', md: 'flex' } }}
+          sx={{ mr: 3, ml: 1, display: { xs: 'none', md: 'flex' } }}
         >
           Michael Bugayets
         </Typography>
@@ -94,7 +95,7 @@ const ResponsiveAppBar = () => {
         >
           Michael Bugayets
         </Typography>
-        <Box sx={{ flexGrow: 1, ml: 5, display: { xs: 'none', md: 'flex' } }}>
+        <Box sx={{ flexGrow: 1, ml: 3, display: { xs: 'none', md: 'flex' } }}>
           {pages.map((page) => (
             <Link className='md_link' to={`/${page}`}
               key={page}
@@ -110,6 +111,9 @@ const ResponsiveAppBar = () => {
         <a className='socialMedia' href="https://www.linkedin.com/in/michaelbugayets/" rel="noopener noreferrer" target="_blank" >
           <LinkedInIcon fontSize='large' />
         </a>
+        <a className='socialMedia' href="https://www.facebook.com/michael.bugayets.9" rel="noopener noreferrer" target="_blank" >
+                    <FacebookIcon fontSize='large' />
+                </a>
       </Toolbar>
 
     </AppBar>

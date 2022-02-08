@@ -2,27 +2,27 @@ header {
   margin-bottom: 10rem;
 }
 
-a {
+.MuiAppBar-root a {
   color: whitesmoke;
   font-size: 1.3rem;
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
 }
 
-a:hover {
+.MuiAppBar-root a:hover {
   text-decoration: underline;
 }
 
-.md_link {
+.MuiAppBar-root .md_link {
   margin-left: 2rem;
 }
 
-.socialMedia {
+.MuiAppBar-root .socialMedia {
   margin-right: 1rem;
 }
 
 @media only screen and (max-width: 900px) {
-  .socialMedia {
+  .MuiAppBar-root .socialMedia {
     display: none;
   }
 }

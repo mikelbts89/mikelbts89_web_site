@@ -1,0 +1,41 @@
+.Contacts ol {
+  margin-bottom: -1rem;
+  font-size: 1.5rem;
+}
+
+.Contacts .my_mail,
+.my_tel {
+  text-decoration: none;
+  color: black;
+}
+
+.Contacts .my_mail:hover,
+.my_tel:hover {
+  text-decoration: underline;
+  color: whitesmoke;
+}
+
+.Contacts .socialMedia {
+  margin-right: 0.5rem;
+}
+.Contacts .icon {
+  font-size: 3rem;
+}
+.Contacts .icon:hover {
+  color: whitesmoke;
+}
+
+.Contacts .socialMedia {
+  display: none;
+}
+
+@media only screen and (max-width: 900px) {
+  .Contacts .my_mail,
+  .my_tel {
+    color: white;
+  }
+
+  .Contacts .socialMedia {
+    display: inline-block;
+  }
+}

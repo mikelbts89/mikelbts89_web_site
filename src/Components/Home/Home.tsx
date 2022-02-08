@@ -9,7 +9,7 @@ import RocketLaunchIcon from '@mui/icons-material/RocketLaunch';
 import "./Home.css"
 
 function Home() {
-  return <div className='home' >
+  return <div className='Home' >
     {/* <img className='my_img' src="/5336.jpg" alt="" /> */}
     <div className="text_about">
       <h1>Home</h1>
