@@ -30,18 +30,23 @@ body {
 
 @media only screen and (min-width: 0px) {
   .App {
-    grid-template-rows: 8.3% 86.7% 5%;
+    grid-template-rows: 6.3% 88.7% 5%;
   }
 }
 @media only screen and (min-width: 450px) {
   .App {
-    grid-template-rows: 6.7% 88.3% 5%;
+    grid-template-rows: 6.3% 88.7% 5%;
+  }
+}
+@media only screen and (max-width: 900px) {
+  body {
+    background-position: 40% 60%;
   }
 }
 
 @media only screen and (min-width: 600px) {
   .App {
-    grid-template-rows: 7.7% 87.3% 5%;
+    grid-template-rows: 7.2% 87.8% 5%;
   }
 }
 @media only screen and (min-width: 1645px) {
