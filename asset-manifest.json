@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/mikelbts89_web_site/static/css/main.cdf99742.css",
+    "main.css": "/mikelbts89_web_site/static/css/main.57c491e6.css",
     "main.js": "/mikelbts89_web_site/static/js/main.fd76414d.js",
     "static/js/787.f25e3ea3.chunk.js": "/mikelbts89_web_site/static/js/787.f25e3ea3.chunk.js",
-    "static/media/home_back2.JPG": "/mikelbts89_web_site/static/media/home_back2.b3018d86a5b9a59502fc.JPG",
+    "static/media/home_back2.png": "/mikelbts89_web_site/static/media/home_back2.e0dcbe87e70babeff4d0.png",
     "index.html": "/mikelbts89_web_site/index.html",
-    "main.cdf99742.css.map": "/mikelbts89_web_site/static/css/main.cdf99742.css.map",
+    "main.57c491e6.css.map": "/mikelbts89_web_site/static/css/main.57c491e6.css.map",
     "main.fd76414d.js.map": "/mikelbts89_web_site/static/js/main.fd76414d.js.map",
     "787.f25e3ea3.chunk.js.map": "/mikelbts89_web_site/static/js/787.f25e3ea3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cdf99742.css",
+    "static/css/main.57c491e6.css",
     "static/js/main.fd76414d.js"
   ]
 }
