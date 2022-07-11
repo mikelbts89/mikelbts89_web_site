@@ -15,7 +15,7 @@ function App() {
         <main>
           <Routing />
         </main>
-        <footer></footer>
+        {/* <footer></footer> */}
       </div>
     </HashRouter>
 

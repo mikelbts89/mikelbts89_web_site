@@ -1,11 +1,19 @@
 import React from 'react';
 import Container from '@mui/material/Container';
 import "./AboutMe.css"
-function AboutMe() {
+import { MobXExample } from '../CV/mobX';
+import { observer } from 'mobx-react';
+
+
+interface UserData {
+    userStore: MobXExample
+}
+
+const AboutMe: React.FC<UserData> = observer(({ userStore }) => {
     return <div className='AboutMe'>
-        <Container fixed maxWidth="xl">
+        <Container maxWidth="xl">
             <h1>About Me</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, iure? Debitis laborum voluptate modi.
+            {/* <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, iure? Debitis laborum voluptate modi.
                 Fugiat animi sequi placeat id provident in quo fugit molestiae deserunt laudantium assumenda officiis earum magnam,
                 architecto veritatis sunt temporibus maxime voluptate? Enim perspiciatis reprehenderit hic quia quam!
                 Tenetur nemo debitis dolorum reprehenderit? A vero qui ipsum repellendus delectus!
@@ -22,10 +30,18 @@ function AboutMe() {
                 iste sint ullam praesentium dolor facere amet iure delectus deleniti!
                 Dolor iste quia veniam sunt fugit! Maiores, esse harum blanditiis consequatur quo fuga sunt cumque?
                 Modi magnam ipsum sed quam suscipit eaque, temporibus repellendus pariatur id perferendis nulla nemo deserunt odio similique distinctio,
-                ratione, fuga quos. Quo maxime quod ipsam aspernatur laborum, libero eos ullam possimus?</p>
+                ratione, fuga quos. Quo maxime quod ipsam aspernatur laborum, libero eos ullam possimus?</p> */}
+
+            <ul>
+                {userStore.userData.map(user => {
+                    return <li key={Math.random()}>
+                        {user.name + " " + user.lastName + " " + user.age}
+                    </li>
+                })}
+            </ul>
         </Container>
 
     </div>;
-}
+})
 
 export default AboutMe;

@@ -9,7 +9,7 @@ body {
   box-sizing: border-box;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
-  grid-template-rows: 6.9% 88.1% 5%;
+  grid-template-rows: 6.9% 93.1%;
 }
 
 /* .App > * {
@@ -30,28 +30,39 @@ body {
 
 @media only screen and (min-width: 0px) {
   .App {
-    grid-template-rows: 6.3% 88.7% 5%;
-  }
-}
-@media only screen and (min-width: 450px) {
-  .App {
-    grid-template-rows: 6.3% 88.7% 5%;
-  }
-}
-@media only screen and (max-width: 900px) {
-  body {
-    background-position: 40% 60%;
+    grid-template-rows: 6.7% 93.3% ;
   }
 }
 
+@media only screen and (min-width: 370px) {
+  .App {
+    grid-template-rows: 6.3% 93.7%;
+  }
+}
+
+@media only screen and (min-width: 450px) {
+  .App {
+    grid-template-rows: 6.3% 93.7% ;
+  }
+ 
+}
+
+
 @media only screen and (min-width: 600px) {
   .App {
-    grid-template-rows: 7.2% 87.8% 5%;
+    grid-template-rows: 7.2% 93.8%;
   }
 }
 @media only screen and (min-width: 1645px) {
   .App {
-    grid-template-rows: 6.9% 88.1% 5%;
+    grid-template-rows: 6.9% 93.1%;
+  }
+}
+
+
+@media only screen and (max-width: 900px) {
+  body {
+    background-position: 40% 60%;
   }
 }
 

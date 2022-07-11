@@ -16,7 +16,7 @@ import LensBlurIcon from '@mui/icons-material/LensBlur';
 import { Link } from 'react-router-dom';
 import "./NavBar.css"
 
-const pages = ['Home', 'About', 'CV', 'Contacts'];
+const pages = ['Home', 'About', 'CV', 'CSS', 'Contacts'];
 
 const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState<null | HTMLElement>(null);
@@ -77,7 +77,7 @@ const ResponsiveAppBar = () => {
               <MenuItem key={page} onClick={handleCloseNavMenu}>
                 <Typography textAlign="left">
                   {<Link to={`/${page}`}
-                    style={{ color: "black" }}
+                    style={{ color: "black", textDecoration: "none" }}
                   >
                     {page}
                   </Link>}
@@ -112,8 +112,8 @@ const ResponsiveAppBar = () => {
           <LinkedInIcon fontSize='large' />
         </a>
         <a className='socialMedia' href="https://www.facebook.com/michael.bugayets.9" rel="noopener noreferrer" target="_blank" >
-                    <FacebookIcon fontSize='large' />
-                </a>
+          <FacebookIcon fontSize='large' />
+        </a>
       </Toolbar>
 
     </AppBar>

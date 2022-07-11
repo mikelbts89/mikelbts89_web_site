@@ -8,7 +8,7 @@ import Container from '@mui/material/Container';
 
 function Contacts() {
     return <div className='Contacts'>
-        <Container fixed maxWidth="xl">
+        <Container maxWidth="xl">
             <h1>Contacts</h1>
             <ol>Tel: <a className='my_tel' href="tel:+972542058608">054-205-86-08</a> </ol>
             <ol>Mail: <a className='my_mail' href="https://mail.google.com/mail/?view=cm&fs=1&to=mikelbts89@gmail.com" rel="noopener noreferrer" target="_blank">Mikelbts89@gmail.com</a></ol>
