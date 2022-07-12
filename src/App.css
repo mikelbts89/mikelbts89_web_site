@@ -1,5 +1,6 @@
 body {
-  background-image: url("/public/home_back2.png");
+  /* background-image: url("/public/home_back2.png"); */
+  background-color: #F0EBE3;
   background-size: cover;
   background-repeat: no-repeat;
 }

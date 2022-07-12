@@ -4,7 +4,8 @@ import "./CssOnly.css"
 function CssOnly() {
   return (
     <div className='CssOnly' >
-      <div className="scene">
+     <div className='base'>
+     <div className="scene">
         <div className="floor"></div>
         <div className="cube">
           <div className="front">
@@ -22,6 +23,7 @@ function CssOnly() {
           <div className="ball"></div>
         </div>
       </div>
+     </div>
     </div>
   )
 }
