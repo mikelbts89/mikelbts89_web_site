@@ -38,7 +38,15 @@ const CV: React.FC<UserData> = ({ userStore }) => {
             <TextField id="outlined-basic" label="Age" variant="outlined" onChange={(event) => { setAge(event.target.value) }} />
             <br />
         </Box>
-        <Button variant="contained" sx={{ width: "6rem", m: 2 }} onClick={() => { userStore.addUser(name, lastName, +age) }}><SaveIcon sx={{ mr: 1 }} />Save</Button>
+        <Button variant="contained" sx={{ width: "6rem", m: 2 }} onClick={() => {
+            if (!name || !lastName || !age) return
+            userStore.addUser(name, lastName, +age)
+            let inputs = document.getElementsByTagName("input")
+            inputs[0].value = " "
+            inputs[1].value = " "
+            inputs[2].value = " "
+
+        }}><SaveIcon sx={{ mr: 1 }} />Save</Button>
 
     </div>;
 }
